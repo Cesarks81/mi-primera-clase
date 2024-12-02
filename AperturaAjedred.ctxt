@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=AperturaAjedred
+comment1.params=nombre\ movimiento\ vigencia
+comment1.target=AperturaAjedred(java.lang.String,\ int,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=int\ getMovimiento()
+comment4.params=
+comment4.target=boolean\ getVigencia()
+comment5.params=nombre
+comment5.target=void\ setNombre(java.lang.String)
+comment6.params=movimiento
+comment6.target=void\ setMovimientos(int)
+comment7.params=
+comment7.target=void\ setVigencia()
+numComments=8
