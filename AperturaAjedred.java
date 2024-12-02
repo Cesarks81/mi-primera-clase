@@ -21,7 +21,16 @@ public class AperturaAjedred{
         movimientosDeLibro = movimiento/2+movimientosDeLibro;
     }
     public void setVigencia(){
-        if(esVigente == true){esVigente = false;}
+        if(esVigente == true)
+            {esVigente = false;
+        }
         else {esVigente = true;}
     }
+    public void imprimirEstado(){
+        System.out.println("Nombre:" + nombreApertura + "| Movimientos:" + movimientosDeLibro + " | Vigencia: " + esVigente);
+    }
+    public String obtenerEstado(){
+        return "Nombre:" + nombreApertura + "| Movimientos:" + movimientosDeLibro + " | Vigencia: " + esVigente;
+    }
+
 }
